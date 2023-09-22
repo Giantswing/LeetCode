@@ -1,14 +1,14 @@
 ﻿namespace LeetCode;
 
 public class P15ThreeSum {
-    public static void Main(string[] args) {
-        P15ThreeSum p15 = new();
-        Console.WriteLine(p15.ThreeSum(new[] { -1, 0, 1, 2, -1, -4 })); //[[-1,-1,2],[-1,0,1]]
-        // Console.WriteLine(p15.ThreeSum(new int[]{0,1,1})); //[]
-        // Console.WriteLine(p15.ThreeSum(new int[]{0,0,0})); //[[0,0,0]]
-        // Console.WriteLine(p15.ThreeSum(new int[]{0,0,0,0})); //[[0,0,0]]
-        // Console.WriteLine(p15.ThreeSum(new int[]{-2,0,1,1,2})); //[[0,0,0]]
-    }
+    // public static void Main(string[] args) {
+    //     P15ThreeSum p15 = new();
+    //     Console.WriteLine(p15.ThreeSum(new[] { -1, 0, 1, 2, -1, -4 })); //[[-1,-1,2],[-1,0,1]]
+    //     // Console.WriteLine(p15.ThreeSum(new int[]{0,1,1})); //[]
+    //     // Console.WriteLine(p15.ThreeSum(new int[]{0,0,0})); //[[0,0,0]]
+    //     // Console.WriteLine(p15.ThreeSum(new int[]{0,0,0,0})); //[[0,0,0]]
+    //     // Console.WriteLine(p15.ThreeSum(new int[]{-2,0,1,1,2})); //[[0,0,0]]
+    // }
 
     public IList<IList<int>> ThreeSum(int[] nums) {
         IList<IList<int>> result = new List<IList<int>>();
